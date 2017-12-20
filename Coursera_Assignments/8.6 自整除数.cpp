@@ -2,13 +2,12 @@
 #include <iostream>
 #include <limits.h>
 #include <vector>
-
 using namespace std;
 
 int sum_digits(int n) {
 	int sum = 0;
 	for (;n != 0;n /= 10) {
-		sum += n%10;
+		sum += n % 10;
 	}
 	
 	return sum;

@@ -1,17 +1,17 @@
 #include <iostream>
-
 using namespace std;
+
 int main(int argc, char *argv[]) {
 	int n;
-		cin >> n;
-		for (int i = 0; i < n; i++) {
-			int x, ans = 0;
-			cin >> x;
-			while (x > 0) {
-				ans += x % 2;
-				x /= 2;
-			}
-			cout << ans << endl;
+	cin >> n;
+	for (int i = 0; i < n;i++) {
+		int x, ans = 0;
+		cin >> x;
+		while (x > 0) {
+			ans += x % 2;
+			x /= 2;
 		}
-		return 0;
+		cout << ans << endl;
+	}
+	return 0;
 }

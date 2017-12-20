@@ -1,7 +1,7 @@
 #include <cmath>
 #include <iostream>
-
 using namespace std;
+
 int main(int argc, char *argv[]) {
     // number of apples
     int number_of_apple;
