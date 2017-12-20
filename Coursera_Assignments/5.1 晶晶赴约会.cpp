@@ -1,5 +1,6 @@
 #include <iostream>
-	using namespace std;
+using namespace std;
+
 int main() {
 	int a;
 	cin >> a;
@@ -8,4 +9,4 @@ int main() {
 	else
 		cout << "YES" << endl;
 	return 0;
-		}
+}

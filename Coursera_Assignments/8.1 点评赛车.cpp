@@ -1,11 +1,12 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+
+int main() {
 	// 很多同学在论坛中问，autograder是怎么工作的。
 	// 答案就是：autograder只看在所有测试用例上的输出是否正确。
 	// 由于本题没有输入，输出也唯一，
 	// 所以，如果我们知道了答案（例如人工地一一枚举过来）那我们就可以直接输出啦！结果如下：
-//       cout << "3" << endl << "D" << endl;
+    //       cout << "3" << endl << "D" << endl;
 	// oj系统的autograder可辨识不了我们的程序使用的算法是否符合要求
 	//（事实上，任何关于程序的非平凡性质都是不可判定的！
 	//  ————等等，那autograder怎么工作呢？
@@ -28,11 +29,11 @@ int main(){
 				// 输出最佳的车
 		cout << best << endl;
 		// 输出判断正确的专家
-		if ( a == 1)
+		if (a == 1)
 			cout << "A" << endl;
-		else if ( b == 1)
+		else if (b == 1)
 			cout << "B" << endl;
-		else  if ( c == 1)
+		else  if (c == 1)
 			cout << "C" << endl;
 		else
 			cout << "D" << endl;

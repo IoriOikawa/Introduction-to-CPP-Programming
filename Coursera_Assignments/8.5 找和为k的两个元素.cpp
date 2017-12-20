@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
+
 int main(int argc, char *argv[]) {
 	int n = 0, k = 0;
 	
@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 		
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = i + 1;j < n;j++) {
-				if (numbers[i] +numbers[j] == k) {
+				if (numbers[i] + numbers[j] == k) {
 					cout << "yes\n";
 					return 0;
 				}
